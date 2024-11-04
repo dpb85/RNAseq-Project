@@ -10,6 +10,6 @@ Using the albicans.SBATCH script, the raw data files were processed using Trimmo
 
 For aligning these reads with the refence sequence, Bowtie will be used.
 
-Count Reads per gene model (HTseq)
-- Differential expression analysis
-(DEseq2 in R)
+Reads will be counted with HTseq.
+
+Differental expression will be determined using DEseq2 in R. 
