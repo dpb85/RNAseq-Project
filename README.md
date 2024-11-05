@@ -14,3 +14,5 @@ For aligning these reads with the refence sequence, Bowtie will be used.
 Reads will be counted with HTseq.
 
 Differental expression will be determined using DEseq2 in R. 
+
+Albicans, few genes have introns, so can use contiguous alignment
