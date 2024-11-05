@@ -9,6 +9,7 @@ First quality control was run on the raw data files (WTB1_1.fq.gz and WTB1_2.fq.
 Using the albicans.SBATCH script, the raw data files were processed using Trimmomatic. This eliminated the weaknesses of the raw data files in the PE files, as seen in files WTB1_1_trPE_fastqc.html and WTB1_2_trPE_fastqc.html. The per-base sequence content was improved, though the sequence duplication remained high.
 
 For aligning these reads with the refence sequence, Bowtie will be used.
+(ADD DETAILS OF GTF files)
 
 Reads will be counted with HTseq.
 
