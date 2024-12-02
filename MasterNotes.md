@@ -22,7 +22,7 @@ The data was aligned to the reference genome sourced from NCBI using [this](http
 
 ### Counting Reads
 
-Reads were counted using HTseq and [this] script.
+Reads were counted using HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/htseq.SBATCH) script.
 
 ## Downstream
 
