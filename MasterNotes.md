@@ -18,7 +18,7 @@ Fastqc was run through interactive mode. Results of the cleaning [here](https://
 
 ### Aligning to Reference Genome
 
-The data was aligned to the reference genome sourced from NCBI; the reference code is GCA_000182965.3. The reads were aligned using Bowtie and [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script.
+The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script; the reference code is GCA_000182965.3.
 
 ### Counting Reads
 
