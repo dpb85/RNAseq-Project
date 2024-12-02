@@ -6,7 +6,7 @@ Data on read quality and quantity before and after cleaning can be found [here](
 
 ### Sourcing Data
 
-Data was drawn from a study done by Dr. Rolfes of Georgetown University. The reference genome was sourced from NCBI; the reference code is ASM18296v3.
+Data was drawn from a study done by Dr. Rolfes of Georgetown University.
 
 ### Trimming Data and Quality Control
 
@@ -14,9 +14,12 @@ First, quality control was run on the raw data files by running an initial FastQ
 
 Errors were initially found for the per-base sequence content, as the machine was still learning to locate the clusters. For this reason, we used headcrop to cut the first 15 bases. High sequence duplication may be due to contamination or due to a gene with high expression. Nevertheless, given that there are 20,000,000 reads, the 500 replicats of one read that was flagged is not of great concern, as it represents a small percentage of the genome.
 
-The FastQC script can be viewed [here]. Results of the cleaning [here] show that per-base sequence content improved.
+Fastqc was run through interactive mode. Results of the cleaning [here](https://docs.google.com/spreadsheets/d/1AOa-XaTzR_PKMIRQDmu8oDTmawXXnkIwEjKOQkNC7Vs/edit?gid=0#gid=0) show that per-base sequence content improved.
 
 ### Aligning to Reference Genome
+
+The data was aligned to the reference genome sourced from NCBI; the reference code is GCA_000182965.3. 
+
 ### Counting Reads
 
 ## Downstream
@@ -35,3 +38,5 @@ Reads will be counted with HTseq.
 Differental expression will be determined using DEseq2 in R. 
 
 Albicans, few genes have introns, so can use contiguous alignment
+
+Questions: need the fastqc html? Or even link to it?
