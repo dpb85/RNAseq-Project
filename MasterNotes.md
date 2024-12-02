@@ -22,18 +22,21 @@ The data was aligned to the reference genome sourced from NCBI using [this](http
 
 ### Counting Reads
 
-Reads were counted using HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/htseq.SBATCH) script.
+To count how many reads mapped to each gene, HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/htseq.SBATCH) script were used. The input files were the bam output file of the bowtie alignment and the gtf file pulled from NCBI.
 
 ## Downstream
 
+Downstream analysis was performed in R. [TRUE AFTER ONTOLOGY??]
+
 ### Differential Expression Analysis
+
+Differential gene expression was determined using DEseq2.
+
 ### Gene Ontology Analysis
 
 
 
  
-
-Reads will be counted with HTseq.
 
 Differental expression will be determined using DEseq2 in R. 
 
