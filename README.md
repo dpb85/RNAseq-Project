@@ -1,4 +1,4 @@
-# conservation-bio
+# RNAseq project
 
 This study will explore the changes in gene expression between _Candida albicans_ organisms experiencing diapause and those not, in order to better understand the genetic factors responsible for this change in behavior.
 
