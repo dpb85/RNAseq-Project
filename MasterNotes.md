@@ -10,7 +10,7 @@ Data was drawn from a study done by Dr. Rolfes of Georgetown University. The ref
 
 ### Trimming Data and Quality Control
 
-First Trimmomatic was used to remove low quality reads. [This] was the script used.
+First, Trimmomatic was used to remove low quality reads. [This](https://github.com/dpb85/RNAseq-Project/blob/main/albicans.SBATCH) was the script used.
 
 ### Aligning to Reference Genome
 ### Counting Reads
