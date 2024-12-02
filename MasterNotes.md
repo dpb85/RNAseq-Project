@@ -18,9 +18,11 @@ Fastqc was run through interactive mode. Results of the cleaning [here](https://
 
 ### Aligning to Reference Genome
 
-The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script; the reference code is GCA_000182965.3.
+The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script; the reference code is GCA_000182965.3. The gtf file was chosen, as it will prove helpful downstream to use this type of annotation file.
 
 ### Counting Reads
+
+Reads were counted using HTseq and [this] script.
 
 ## Downstream
 
@@ -29,9 +31,7 @@ The data was aligned to the reference genome sourced from NCBI using [this](http
 
 
 
-Using the albicans.SBATCH script, the raw data files were processed using Trimmomatic. This eliminated the weaknesses of the raw data files in the PE files, as seen in files WTB1_1_trPE_fastqc.html and WTB1_2_trPE_fastqc.html. The per-base sequence content was improved, though the sequence duplication remained high.
-
-For aligning these reads with the refence sequence, Bowtie was used. The reference sequence chosen was the genome GCF_000182965.3 off of the NCBI database. The gtf file was chosen, as it will prove helpful down the road to use this type of annotation file.
+ 
 
 Reads will be counted with HTseq.
 
