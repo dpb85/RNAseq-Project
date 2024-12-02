@@ -1,4 +1,4 @@
-# Workflow for Canida albicans grown in Thi +/- 
+# Workflow for Canida albicans Grown in Thi +/- 
 
 ## Upstream
 
