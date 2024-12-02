@@ -6,7 +6,7 @@ Data on read quality and quantity before and after cleaning can be found [here](
 
 ### Sourcing Data
 
-Data was drawn from a study done by Dr. Rolfes of Georgetown University.
+Data was drawn from a study done by Dr. Rolfes of Georgetown University. Note, this analysis will focus on the paired end reads.
 
 ### Trimming Data and Quality Control
 
@@ -18,7 +18,7 @@ Fastqc was run through interactive mode. Results of the cleaning [here](https://
 
 ### Aligning to Reference Genome
 
-The data was aligned to the reference genome sourced from NCBI; the reference code is GCA_000182965.3. 
+The data was aligned to the reference genome sourced from NCBI; the reference code is GCA_000182965.3. The reads were aligned using Bowtie and [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script.
 
 ### Counting Reads
 
