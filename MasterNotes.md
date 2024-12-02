@@ -30,16 +30,13 @@ Downstream analysis was performed in R. [TRUE AFTER ONTOLOGY??]
 
 ### Differential Expression Analysis
 
-Differential gene expression was determined using DEseq2.
+Differential gene expression was determined using DEseq2 using [this](https://github.com/dpb85/RNAseq-Project/blob/main/calb_DESeq_script_FINAL.R) script. Results show that [ADD THIS PART]
 
 ### Gene Ontology Analysis
 
-
+[ADD THIS PART]
 
  
-
-Differental expression will be determined using DEseq2 in R. 
-
 Albicans, few genes have introns, so can use contiguous alignment
 
 Questions: need the fastqc html? Or even link to it?
