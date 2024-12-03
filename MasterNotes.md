@@ -40,3 +40,8 @@ Differential gene expression was determined using DEseq2 using [this](https://gi
 Albicans, few genes have introns, so can use contiguous alignment
 
 Questions: need the fastqc html? Or even link to it?
+
+vitamin metabolism in canida
+after trim, worked with SE
+htseq counts all alignments
+combined all htseq from all samples, ran through R script, got table of all genes in analysis the full change values, base read counts and result of stat test for diff expr, list in excel of diff expressed genes (13), generated PCA plot and volcano plot
