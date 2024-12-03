@@ -36,6 +36,7 @@ Differential gene expression was determined using DEseq2 using [this](https://gi
 
 [ADD THIS PART] - write in summary text. This pathway came up, number genex expected, number in our list, fold enrichment, p val, my interpretation of it.
 
+Circle back to og goals
  
 Albicans, few genes have introns, so can use contiguous alignment
 
