@@ -41,6 +41,7 @@ Albicans, few genes have introns, so can use contiguous alignment
 
 Questions: need the fastqc html? Or even link to it?
 
+Add names of intermediate files but don't need to add them yoruself
 vitamin metabolism in canida
 after trim, worked with SE
 htseq counts all alignments
