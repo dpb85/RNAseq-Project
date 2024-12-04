@@ -28,11 +28,11 @@ To count how many reads mapped to each gene, HTseq and [this](https://github.com
 
 ### Differential Expression Analysis
 
-Differential gene expression was determined using DEseq2 using [this](https://github.com/dpb85/RNAseq-Project/blob/main/calb_DESeq_script_FINAL.R) script in R. Results show that[ADD THIS PART] add the two graphs and charts - interpretation
-
-![TH-vTH+_pcaplot](https://github.com/user-attachments/assets/7661b367-b973-4d73-8bc1-b9a34910fc15)
-
+Differential gene expression was determined using DEseq2 using [this](https://github.com/dpb85/RNAseq-Project/blob/main/calb_DESeq_script_FINAL.R) script in R. 
+Results of the volcano plot show that there is a statistically significant difference in the gene expression of a certain number of genes.
 ![volcano_TH-vTH+](https://github.com/user-attachments/assets/2a083807-e879-4c09-955b-54efb5f45207)
+Results of the PCA plot show that the differences in gene expression are correlated with thiamine presence or absence. 
+![TH-vTH+_pcaplot](https://github.com/user-attachments/assets/7661b367-b973-4d73-8bc1-b9a34910fc15)
 
 ### Gene Ontology Analysis
 
