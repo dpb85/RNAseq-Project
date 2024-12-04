@@ -18,11 +18,11 @@ Fastqc was run through interactive mode. Results of the cleaning [here](https://
 
 ### Aligning to Reference Genome
 
-The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script; the reference code is GCA_000182965.3. The gtf file was chosen, as it will prove helpful downstream to use this type of annotation file. Results of the alignment can be found [here](https://docs.google.com/spreadsheets/d/1fa-FXVMlCXOZkbHSx_mMg0OXLMy9BeBJg8uWrEMpKGo/edit?gid=0#gid=0) under the file name WTB1.bam. Few _C. albicans_ genes have introns, so contiguous alignment was used.
+The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script; the reference code is GCA_000182965.3. The gtf file was chosen, as it will prove helpful downstream to use this type of annotation file. Results of the alignment can be found [here](https://docs.google.com/spreadsheets/d/1fa-FXVMlCXOZkbHSx_mMg0OXLMy9BeBJg8uWrEMpKGo/edit?gid=0#gid=0) under the file name WTB1.sam. Few _C. albicans_ genes have introns, so contiguous alignment was used.
 
 ### Counting Reads
 
-To count how many reads mapped to each gene, HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/htseq.SBATCH) script were used. The input files were the bam output file of the bowtie alignment and the gtf file pulled from NCBI. The alignments from all six samples of _C. albicans_ were compiled for the HTseq analysis.
+To count how many reads mapped to each gene, HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/htseq.SBATCH) script were used. The input files were the sam output file of the bowtie alignment converted to a bam file and the gtf file pulled from NCBI. The alignments from all six samples of _C. albicans_ were compiled for the HTseq analysis. The file names are labelled WTA1_htseqCount, WTA2_htseqCount, WTB1_htseqCount, etc.
 
 ## Downstream
 
@@ -41,7 +41,3 @@ Results of a gene ontology enrichment analysis show that the thymine biosyntheti
 Though not indicated in the gene ontology enrichment analysis, several transmembrane transport genes were also present in the differentially expressed genes. This may suggest that in a nutrient-deprived environment, the organism has an increased pressure to scavenge its environment for any available resources.
 
 Results of this analysis show significant differential expression in genes due to thiamine presence and absence. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _C. albicans_.
- 
-Questions:Add names of intermediate files but don't need to add them yoruself" -- which files?
-several timespathway came up, number genex expected, number in our list, fold enrichment, p val, my interpretation of it.
-Circle back to og goals
