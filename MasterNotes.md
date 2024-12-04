@@ -28,7 +28,10 @@ To count how many reads mapped to each gene, HTseq and [this](https://github.com
 
 ### Differential Expression Analysis
 
-Differential gene expression was determined using DEseq2 using [this](https://github.com/dpb85/RNAseq-Project/blob/main/calb_DESeq_script_FINAL.R) script in R. Results show that [ADD THIS PART] add the two graphs and charts - interpretation
+Differential gene expression was determined using DEseq2 using [this](https://github.com/dpb85/RNAseq-Project/blob/main/calb_DESeq_script_FINAL.R) script in R. Results show that[ADD THIS PART] add the two graphs and charts - interpretation
+
+![TH-vTH+_pcaplot](https://github.com/user-attachments/assets/7661b367-b973-4d73-8bc1-b9a34910fc15)
+
 
 ### Gene Ontology Analysis
 
