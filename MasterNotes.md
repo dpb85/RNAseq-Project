@@ -40,11 +40,11 @@ Results of the PCA plot show that the differences in gene expression are correla
 
 Circle back to og goals
  
+
+Questions: need the fastqc html? Or even link to it? "Add names of intermediate files but don't need to add them yoruself" -- which files?
+
 Albicans, few genes have introns, so can use contiguous alignment
 
-Questions: need the fastqc html? Or even link to it?
-
-Add names of intermediate files but don't need to add them yoruself
 vitamin metabolism in canida
 after trim, worked with SE
 htseq counts all alignments
