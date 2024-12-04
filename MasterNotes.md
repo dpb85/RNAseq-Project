@@ -1,4 +1,4 @@
-# Workflow for Canida albicans Grown in Thi +/- 
+# Workflow for _Candida albicans_ Grown in Thi +/- 
 
 ## Upstream
 
@@ -36,11 +36,12 @@ Results of the PCA plot show that the differences in gene expression are correla
 
 ### Gene Ontology Analysis
 
-Results of a gene ontology analysis can be found [here](https://pantherdb.org/tools/compareToRefList.jsp). The thymine biosynthetic process pathway significantly abundant in the genes differentially expressed. Four of five genes in the thiamine biosynthetic process were differentially expressed, compared to the 0.01 genes expected. This constitutes a fold enrichment greater than 100, and a p-value of 6.47^10-11. In the absence of thiamine, it is likely that this pathway is upregulated in order for the organism to create its own thiamine in order to satisfy its thiamine needs.
+Results of a gene ontology analysis show that the thymine biosynthetic process pathway was significantly upregulated. Four of five genes in the thiamine biosynthetic process were differentially expressed, compared to the 0.01 genes expected by random chance. This constitutes a fold enrichment greater than 100, and a p-value of 6.47^10-11. In the absence of thiamine, it is likely that this pathway is upregulated in order for the organism to create its own thiamine in order to satisfy its thiamine needs.
 
-several timespathway came up, number genex expected, number in our list, fold enrichment, p val, my interpretation of it.
+Several transmembrane transport genes were also present in the differentially expressed genes. This may be due to the cell's increased need to transport any available nutrients into the cell when in a nutrient-deprived environment.
 
-Circle back to og goals
+Results of this analysis show significant differential expression in genes due to thiamine presence and absence. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _Candida albicans_.
  
-
 Questions: need the fastqc html? Or even link to it? "Add names of intermediate files but don't need to add them yoruself" -- which files?
+several timespathway came up, number genex expected, number in our list, fold enrichment, p val, my interpretation of it.
+Circle back to og goals
