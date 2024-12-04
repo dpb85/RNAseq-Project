@@ -32,6 +32,7 @@ Differential gene expression was determined using DEseq2 using [this](https://gi
 
 ![TH-vTH+_pcaplot](https://github.com/user-attachments/assets/7661b367-b973-4d73-8bc1-b9a34910fc15)
 
+![volcano_TH-vTH+](https://github.com/user-attachments/assets/2a083807-e879-4c09-955b-54efb5f45207)
 
 ### Gene Ontology Analysis
 
