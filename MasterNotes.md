@@ -1,4 +1,4 @@
-# Workflow for _Candida albicans_ Grown in Thi +/- 
+# Workflow for _Candida albicans_ grown in Thi +/- 
 
 ## Upstream
 
@@ -40,7 +40,7 @@ Results of a gene ontology analysis show that the thymine biosynthetic process p
 
 Several transmembrane transport genes were also present in the differentially expressed genes. This may be due to the cell's increased need to transport any available nutrients into the cell when in a nutrient-deprived environment.
 
-Results of this analysis show significant differential expression in genes due to thiamine presence and absence. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _Candida albicans_.
+Results of this analysis show significant differential expression in genes due to thiamine presence and absence. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _C. albicans_.
  
 Questions: need the fastqc html? Or even link to it? "Add names of intermediate files but don't need to add them yoruself" -- which files?
 several timespathway came up, number genex expected, number in our list, fold enrichment, p val, my interpretation of it.
