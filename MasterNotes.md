@@ -10,7 +10,7 @@ Data was drawn from a study done by Dr. Rolfes of Georgetown University.
 
 ### Trimming Data and Quality Control
 
-First, quality control was run on the raw data files by running an initial FastQC analysis. This yielded evidence of weakness in the per-base sequence content and sequence duplication. Trimmomatic was used to remove these low quality reads. [This](https://github.com/dpb85/RNAseq-Project/blob/main/albicans.SBATCH) was the Trimmomatic script used. Note, from here on out, this analysis will focus on the paired end reads. The clean reads can be found in the WTB1_1.trPE.fq.gz and WTB1_2.trPE.fq.gz files.
+First, quality control was run on the raw data files by running an initial FastQC analysis. This yielded evidence of weakness in the per-base sequence content and sequence duplication. Trimmomatic was used to remove these low quality reads. [This](https://github.com/dpb85/RNAseq-Project/blob/main/Upstream/Scripts/alb_trm.SBATCH) was the Trimmomatic script used. Note, from here on out, this analysis will focus on the paired end reads. The clean reads can be found in the WTB1_1.trPE.fq.gz and WTB1_2.trPE.fq.gz files.
 
 Errors were initially found for the per-base sequence content, as the machine was still learning to locate the clusters. For this reason, we used headcrop to cut the first 15 bases. High sequence duplication may be due to contamination or due to a gene with high expression. Nevertheless, given that there are 20,000,000 reads, the 500 replicats of one read that was flagged is not of great concern, as it represents a small percentage of the genome.
 
