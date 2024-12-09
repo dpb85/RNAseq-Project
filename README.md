@@ -4,4 +4,4 @@ This study will explore the changes in gene expression between _Candida albicans
 
 <img width="363" alt="Screenshot 2024-12-04 at 1 31 12 PM" src="https://github.com/user-attachments/assets/7f82509b-efba-438f-8d23-87de2b83d30f">
 
-This branch of the study will focuse on the thiamine positive version of the "B" biological replicate; that is, WTB1. The workflow of this project is described in detail under [MasterNotes](https://github.com/dpb85/RNAseq-Project/blob/main/MasterNotes). 
+This branch of the study will focuse on the thiamine positive version of the "B" biological replicate; that is, WTB1. The workflow of this project is described in detail under [MasterNotes]([https://github.com/dpb85/RNAseq-Project/blob/main/MasterNotes](https://github.com/dpb85/RNAseq-Project/blob/main/MasterNotes.md)). 
