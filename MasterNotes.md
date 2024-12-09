@@ -22,7 +22,7 @@ The data was aligned to the reference genome sourced from NCBI using [this](http
 
 ### Counting Reads
 
-To count how many reads mapped to each gene, HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/htseq.SBATCH) script were used. The input files were the sam output file of the bowtie alignment converted to a bam file, WTB1.bam, and the gtf file pulled from NCBI, GCF_000182965.3_ASM18296v3_genomic.gtf. The alignments from all six replicats of _C. albicans_ were compiled for the HTseq analysis. The file names are labelled WTA1_htseqCount, WTA2_htseqCount, WTB1_htseqCount, etc.
+To count how many reads mapped to each gene, HTseq and [this](https://github.com/dpb85/RNAseq-Project/blob/main/Upstream/Scripts/alb_htsq.SBATCH) script were used. The input files were the sam output file of the bowtie alignment converted to a bam file, WTB1.bam, and the gtf file pulled from NCBI, GCF_000182965.3_ASM18296v3_genomic.gtf. The alignments from all six replicats of _C. albicans_ were compiled for the HTseq analysis. The file names are labelled WTA1_htseqCount, WTA2_htseqCount, WTB1_htseqCount, etc.
 
 ## Downstream
 
