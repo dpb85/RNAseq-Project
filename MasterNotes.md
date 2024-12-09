@@ -41,4 +41,5 @@ Results of a gene ontology enrichment analysis show that the thymine biosyntheti
 
 Though not indicated in the gene ontology enrichment analysis, several transmembrane transport genes were also present in the differentially expressed genes. This may suggest that in a nutrient-deprived environment, the organism has an increased pressure to scavenge its environment for any available resources and increase transport of those resources into the cell.
 
-Results of this analysis show significant differential expression in genes due to thiamine presence and absence. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _C. albicans_.
+
+Results of this entire analysis show significant differential expression in genes due to thiamine presence and absence in the environment. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _C. albicans_.
