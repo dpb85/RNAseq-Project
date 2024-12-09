@@ -39,6 +39,6 @@ The gene names, p-values, and biological function of the genes can be found [her
 
 Results of a gene ontology enrichment analysis show that the thymine biosynthetic process pathway was significantly upregulated. Four of five genes in the thiamine biosynthetic process were differentially expressed, compared to the 0.01 genes expected by random chance. This constitutes a fold enrichment greater than 100, and a p-value of 6.47^10-11. This result suggests that in the absence of thiamine, it is likely that this pathway is upregulated in order for the organism to create its own thiamine in order to satisfy its thiamine needs.
 
-Though not indicated in the gene ontology enrichment analysis, several transmembrane transport genes were also present in the differentially expressed genes. This may suggest that in a nutrient-deprived environment, the organism has an increased pressure to scavenge its environment for any available resources.
+Though not indicated in the gene ontology enrichment analysis, several transmembrane transport genes were also present in the differentially expressed genes. This may suggest that in a nutrient-deprived environment, the organism has an increased pressure to scavenge its environment for any available resources and increase transport of those resources into the cell.
 
 Results of this analysis show significant differential expression in genes due to thiamine presence and absence. The thirteen genes identified as differentially expressed shed light on some of the key components of vitamin metabolism in _C. albicans_.
