@@ -18,7 +18,7 @@ FastQC was run through interactive mode. Results of the cleaning [here](https://
 
 ### Aligning to Reference Genome
 
-The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/alb_bowtie.SBATCH) script; the reference code is GCA_000182965.3. The gtf file was chosen, as it will prove helpful downstream to use this type of annotation file. Results of the alignment can be found [here](https://docs.google.com/spreadsheets/d/1fa-FXVMlCXOZkbHSx_mMg0OXLMy9BeBJg8uWrEMpKGo/edit?gid=0#gid=0) under the file name WTB1.sam. Few _C. albicans_ genes have introns, so contiguous alignment was used.
+The data was aligned to the reference genome sourced from NCBI using [this](https://github.com/dpb85/RNAseq-Project/blob/main/Upstream/Scripts/alb_bwt.SBATCH)script; the reference code is GCA_000182965.3. The gtf file was chosen, as it will prove helpful downstream to use this type of annotation file. Results of the alignment can be found [here](https://docs.google.com/spreadsheets/d/1fa-FXVMlCXOZkbHSx_mMg0OXLMy9BeBJg8uWrEMpKGo/edit?gid=0#gid=0) under the file name WTB1.sam. Few _C. albicans_ genes have introns, so contiguous alignment was used.
 
 ### Counting Reads
 
