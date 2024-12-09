@@ -31,7 +31,7 @@ To count how many reads mapped to each gene, HTseq and [this](https://github.com
 Differential gene expression was determined using DEseq2 and [this](https://github.com/dpb85/RNAseq-Project/blob/main/Downstream/calb_DESeq_script_FINAL.R) script in R. 
 Results of the PCA plot show that the differences in gene expression are correlated with thiamine presence or absence across the PC2 axis. The low percentage of the variance that this axis describes indicates that it is likely a low number of genes that show differential expression between thiamine presence and thiamine absence conditions.  
 ![TH-vTH+_pcaplot](https://github.com/user-attachments/assets/7661b367-b973-4d73-8bc1-b9a34910fc15)
-Results of the volcano plot show that there is a statistically significant difference in the gene expression of 13 different genes.<img width="614" alt="Screenshot 2024-12-09 at 1 34 43 PM" src="https://github.com/user-attachments/assets/acd6251d-7981-47f7-8fe5-f97dab31da4d">
+Results of the volcano plot show that these differences in gene expression are statistically significant in 13 different genes.<img width="614" alt="Screenshot 2024-12-09 at 1 34 43 PM" src="https://github.com/user-attachments/assets/acd6251d-7981-47f7-8fe5-f97dab31da4d">
 The gene names, p-values, and the biological function of the genes can be found [here](https://docs.google.com/spreadsheets/d/1_c6l934VuI1iEprC6hadYm-PaygesRUPCh1upRf_XD8/edit?gid=1743740104#gid=1743740104).
 
 ### Gene Ontology Analysis
