@@ -1,4 +1,4 @@
-# Workflow for _Candida albicans_ grown in Thi +/- 
+# Project Framework for Differential Expression Analysis of _Candida albicans_ grown in Thi +/- 
 
 ## Upstream
 
